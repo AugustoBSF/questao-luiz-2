@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+
+}
+
+.central {
+
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(26, 25, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif0;
+    font-weight: bold;
+    flex-direction: column;
+    display: block;
+
+
+
+}
+
+.central #nomeIMC {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central #calculadora {
+    color: green;
+    background: green;
+    width: 120px;
+    height: 3px;
+}
+
+.central #divPeso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.central #peso {
+    display: flex;
+    justify-content: left;
+    font-size: medium;
+}
+
+.central #inputPeso {
+    justify-content: right;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.central #divAltura {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central #altura {
+    display: flex;
+    justify-content: left;
+    font-size: medium;
+}
+
+.central #inputAltura {
+    justify-content: right;
+    font-size: medium;
+    cursor: pointer
+}
+
+.central #botao {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+
+}
+
+.central #botao button {
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer
+}
+
+.central #posbtn {
+    color: green;
+    background: green;
+    width: 320px;
+    height: 2px;
+}
+
+.central #idResultado {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    font-size: small;
+}
